@@ -1,0 +1,5 @@
+def sqr(n):
+    print(n*n)
+    
+n = int(input("Enter the number: "))
+res = sqr(n)
