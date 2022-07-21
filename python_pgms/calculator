@@ -1,0 +1,21 @@
+def calc(n1,n2,ch):
+    if ch == '+':
+        print(n1 + n2)
+    elif ch == '-':
+        print(n1 - n2)
+    elif ch == '*':
+        print(n1 * n2)
+    elif ch == '/':
+        if n2 != 0:
+            print(n1 / n2)
+        else:
+            print("Division by zero, Impossible!!")
+    else:
+          print("Invalid input character")
+        
+n1 = int(input("Enter First Number: "))
+n2 = int(input("Enter Second Number: "))
+
+ch = input("Enter any of these char for specific operation +,-,*,/: ")
+
+res = calc(n1,n2,ch)
