@@ -1,0 +1,163 @@
+package main
+import "fmt"
+/*func function1(name string, age int){
+    fmt.Println("Hi", name, "your age is", age)
+}*/
+/*func sum(a int, b int) int{
+    return a+b*/
+/*func fib(n1 int, n2 int, n int){
+	var sum int = 0
+	
+	
+	if n > 0 {
+		sum = n1 + n2
+		fmt.Printf("%d ", sum)
+		n1 = n2
+		n2 = sum
+		fib(n1, n2, n-1)
+	}
+}*/
+/*func fact(n int) int{
+    if n == 1{
+        return 1
+    }
+    return(n * fact(n-1))
+}6*/
+type  Employee struct{
+    fname string
+    age int
+    salary int
+}
+func main() {
+    var emp1 Employee
+    var emp2 Employee
+    var emp3 Employee
+    
+    emp1.fname = "Meera"
+    emp1.age = 21
+    emp1.salary = 40000
+    
+    emp2.fname = "Susan"
+    emp2.age = 20
+    emp2.salary = 40000
+    
+    emp3.fname = "Cherian"
+    emp3.age = 22
+    emp3.salary = 40000
+    
+    fmt.Println("Name of employee: " ,emp1.fname, "Age: " ,emp1.age, "Salary: " ,emp1.salary)
+    fmt.Println("Name of employee: " ,emp2.fname, "Age: " ,emp2.age, "Salary: " ,emp2.salary)
+    fmt.Println("Name of employee: " ,emp3.fname, "Age: " ,emp3.age, "Salary: " ,emp3.salary)
+    /*fmt.Println("Enter the number: ")
+    var n int
+    fmt.Scanln(&n)
+    res := fact(n)
+    fmt.Println("Factorial of", n, "is :", res)*/
+
+    /*var n1, n2, n int
+
+	n1 = 0
+	n2 = 1
+
+	fmt.Printf("Enter the numnber of terms in fibanocci series: ")
+	fmt.Scanf("%d", &n)
+    fmt.Printf("Fibonacii series is : ")
+	fmt.Printf("%d\t%d ", n1, n2)
+	fib(n1, n2, n-2)
+	fmt.Printf("\n")*/
+    /*fmt.Println(sum(20,30))*/
+    /*function1("Meera",21)
+    function1("Mariam",24)
+    function1("Ciby",28)
+    function1("Kurian",32)*/
+    /*var name int = 10
+    var_n := 20
+    var x,y,z int = 1,2,3
+    var array1 = [4] int {1,2,3,4}
+    fmt.Println(array1)
+    array2 := [4] int {1,2,3,4}
+    fmt.Println(array2)
+    fmt.Println(name)
+    fmt.Println(var_n)
+    fmt.Println(x,y,z)
+    fmt.Println(array1[1])
+    fmt.Println(array2[0])*/
+    /*array3 := [10] int {} //non initialised array
+    array4 := [10] int {10,20} //partially initialised array
+    array5 := [10] int {1,2,3,4,5,6,7,8,9,0} //fully initialised array
+    fmt.Println(array3)
+    fmt.Println(array4)
+    fmt.Println(array5)
+    array6 := [6] int {3:30,4:40}
+    fmt.Println(array6)
+    fmt.Println(len(array5))*/
+    // Slice Creation
+    /*slice1 := [] int {}
+    fmt.Println(slice1)
+    fmt.Println(len(slice1))
+    fmt.Println(cap(slice1))
+    
+    slice2 := [] string {"Meera", "Susan", "Cherian", "Mariam"}
+    fmt.Println(slice2)
+    fmt.Println(len(slice2))
+    fmt.Println(cap(slice2))*/
+    
+    /*array1 := [8] int {11,1,2,1,3,1,4,1}
+    slice3 := array1[2:4]
+    fmt.Println(slice3)
+    fmt.Println(len(slice3))
+    fmt.Println(cap(slice3))*/
+   
+   /* array1 := [8] int {11,1,2,1,3,1,4,1}
+    slice4 := array1[0:8]
+    fmt.Println(slice4)
+    fmt.Println(len(slice4))
+    fmt.Println(cap(slice4))*/
+    
+    /*slice5 := make([] int,4,8)
+    fmt.Println(slice5)*/
+    /*slice2 := [] string {"Meera", "Susan", "Cherian", "Mariam"}
+    slice2 = append(slice2,"Ciby", "Bindu")
+    fmt.Println(slice2)
+    fmt.Println(cap(slice2))
+    */
+   /* fmt.Println("Enter the first number: ")
+    var first int
+    fmt.Scanln(&first)
+    fmt.Println("Enter the second number: ")
+    var second int
+    fmt.Scanln(&second)
+    if first>second{
+        fmt.Println("First number is greater")
+    }else{
+        fmt.Println("Second number is greater")}*/
+        
+    /*day := 0
+    
+    switch day{
+        case 1:
+        fmt.Println("Monday")
+        case 2:
+        fmt.Println("Tuesday")
+        case 3:
+        fmt.Println("Wednesday")
+        case 4:
+        fmt.Println("Thursday")
+        case 5:
+        fmt.Println("Friday")
+        case 6:
+        fmt.Println("Not a valid day")
+        fmt.Println("saturday")
+        case 7:
+        fmt.Println("Sunday")
+        default:
+    }
+    */
+    /*for i:=0;i<6;i++{
+        if i == 3{
+            continue
+        }
+        fmt.Println(i)
+    }*/
+    
+}
