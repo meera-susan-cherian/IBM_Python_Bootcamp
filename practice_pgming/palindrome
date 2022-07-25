@@ -1,0 +1,12 @@
+def palindrome(s):
+    return s == s[::-1]
+ 
+ 
+
+s = input("Enter the string: ")
+pal = palindrome(s)
+ 
+if pal:
+    print("Yes, entered string  is a palindrome")
+else:
+    print("No, entered string is not a palindrome")
