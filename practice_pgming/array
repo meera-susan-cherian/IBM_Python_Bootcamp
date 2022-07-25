@@ -1,0 +1,16 @@
+arr = []
+n = int(input("Enter the size of the array : "))
+print("Enter the elements of the array: ")
+for x in range(n):
+    x=int(input())
+    arr.append(x)
+large = arr[0]
+small = arr[0]
+for i in range(n):
+    if arr[i]>large:
+        large = arr[i]
+    if arr[i]<small:
+        small = arr[i]
+        
+print(f"Largest element in array: {large}")
+print(f"Smallest element in array: {small}") 
