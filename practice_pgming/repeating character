@@ -1,0 +1,7 @@
+s = input("Enter the string: ")
+s1 =[]
+for i in s:
+    if i not in s1:
+        s1.append(i)
+for i in range(0,len(s1)):
+    print(s1[i],end="")
